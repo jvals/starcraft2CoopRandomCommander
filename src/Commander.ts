@@ -4,6 +4,7 @@ class Commander {
     private readonly _prestiges: Prestige[];
     readonly name: string;
     private readonly _shortName: string
+    isAvailable = true;
     constructor(name: string, prestiges: Prestige[], _shortName: string | undefined = undefined) {
         this.name = name;
         this._prestiges = prestiges;
