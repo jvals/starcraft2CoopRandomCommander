@@ -19,8 +19,9 @@ class Commander {
     }
 
     private getRandomPrestige(): Prestige {
-        const idx = Math.floor(Math.random()*this._prestiges.length);
-        return this._prestiges[idx];
+        const availablePrestiges = this._prestiges.filter(prestige => prestige.isAvailable)
+        const idx = Math.floor(Math.random()*availablePrestiges.length);
+        return availablePrestiges[idx];
     }
 
 }
