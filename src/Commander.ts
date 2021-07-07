@@ -1,13 +1,13 @@
 import type Prestige from "./Prestige";
 
 class Commander {
-    private readonly _prestiges: Prestige[];
+    readonly prestiges: Prestige[];
     readonly name: string;
     private readonly _shortName: string
     isAvailable = true;
     constructor(name: string, prestiges: Prestige[], _shortName: string | undefined = undefined) {
         this.name = name;
-        this._prestiges = prestiges;
+        this.prestiges = prestiges;
         this._shortName = _shortName ?? name
     }
 
@@ -20,7 +20,7 @@ class Commander {
     }
 
     private getRandomPrestige(): Prestige {
-        const availablePrestiges = this._prestiges.filter(prestige => prestige.isAvailable)
+        const availablePrestiges = this.prestiges.filter(prestige => prestige.isAvailable)
         const idx = Math.floor(Math.random()*availablePrestiges.length);
         return availablePrestiges[idx];
     }

@@ -1,20 +1,29 @@
 <script lang="ts">
-	import Commander from "./Commander";
-	import getRandomCommander from "./CommanderUtil";
+	import Main from './Home.svelte'
+	import Settings from "./Settings.svelte";
+	import {getCommanders} from "./CommanderUtil"
 
-	let suggestedCommander: Commander | null = null;
-	function updateSuggestedCommander() {
-		suggestedCommander = getRandomCommander()
+	const commanders = getCommanders()
+
+	let view = 'home';
+
+	function goToSettings() {
+		view = 'settings'
+	}
+
+	function goToHome() {
+		view = 'home'
 	}
 </script>
 
 <main>
 	<h1>Starcraft 2 Coop Random</h1>
-	<p>Click the button to get a random commander and a random prestige.</p>
-	<button on:click={updateSuggestedCommander}>Random!</button>
-	{#if suggestedCommander !== null}
-		<p>{suggestedCommander.name} with prestige {suggestedCommander.suggestedPrestige}</p>
-		<p>Get a good build order at <a href={suggestedCommander.getLinkToSC2Coop()}>{suggestedCommander.getLinkToSC2Coop()}</a></p>
+	{#if view === 'home'}
+		<button on:click={goToSettings}>Settings</button>
+		<Main/>
+	{:else}
+        <button on:click={goToHome}>Back</button>
+		<Settings commanders={commanders}/>
 	{/if}
 </main>
 

@@ -1,13 +1,13 @@
 class Prestige {
-    private readonly _name: string;
+    readonly name: string;
     isAvailable = true;
 
     constructor(name: string) {
-        this._name = name;
+        this.name = name;
     }
 
     toString() {
-        return this._name
+        return this.name
     }
 }
 
