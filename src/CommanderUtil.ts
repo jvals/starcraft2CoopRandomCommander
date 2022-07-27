@@ -4,145 +4,145 @@ import Prestige from "./Prestige";
 const commanders = [
     new Commander('Raynor',
         [
-            new Prestige('Renegade Commander'),
-            new Prestige('Backwater Marshal'),
-            new Prestige('Rough Rider'),
-            new Prestige('Rebel Raider')
+            new Prestige('(P0) Renegade Commander'),
+            new Prestige('(P1) Backwater Marshal'),
+            new Prestige('(P2) Rough Rider'),
+            new Prestige('(P3) Rebel Raider')
         ]
     ),
     new Commander('Kerrigan',
         [
-            new Prestige('Queen of Blades'),
-            new Prestige('Malevolent Matriarch'),
-            new Prestige('Folly of Man'),
-            new Prestige('Desolate Queen')
+            new Prestige('(P0) Queen of Blades'),
+            new Prestige('(P1) Malevolent Matriarch'),
+            new Prestige('(P2) Folly of Man'),
+            new Prestige('(P3) Desolate Queen')
         ]
     ),
     new Commander('Artanis',
         [
-            new Prestige('Hierarch of the Daelaam'),
-            new Prestige('Valorous Inspirator'),
-            new Prestige('Nexus Legate'),
-            new Prestige('Arkship Commandant')
+            new Prestige('(P0) Hierarch of the Daelaam'),
+            new Prestige('(P1) Valorous Inspirator'),
+            new Prestige('(P2) Nexus Legate'),
+            new Prestige('(P3) Arkship Commandant')
         ]
     ),
     new Commander('Swann',
         [
-            new Prestige('Chief Engineer'),
-            new Prestige('Heavy Weapons Specialist'),
-            new Prestige('Grease Monkey'),
-            new Prestige('Payload Director')
+            new Prestige('(P0) Chief Engineer'),
+            new Prestige('(P1) Heavy Weapons Specialist'),
+            new Prestige('(P2) Grease Monkey'),
+            new Prestige('(P3) Payload Director')
         ]
     ),
     new Commander('Zagara',
         [
-            new Prestige('Swarm Broodmother'),
-            new Prestige('Scourge Queen'),
-            new Prestige('Mother of Constructs'),
-            new Prestige('Apex Predator')
+            new Prestige('(P0) Swarm Broodmother'),
+            new Prestige('(P1) Scourge Queen'),
+            new Prestige('(P2) Mother of Constructs'),
+            new Prestige('(P3) Apex Predator')
         ]
     ),
     new Commander('Vorazun',
         [
-            new Prestige('Matriarch of the Nerazim'),
-            new Prestige('Spirit of Respite'),
-            new Prestige('Withering Siphon'),
-            new Prestige('Keeper of Shadows')
+            new Prestige('(P0) Matriarch of the Nerazim'),
+            new Prestige('(P1) Spirit of Respite'),
+            new Prestige('(P2) Withering Siphon'),
+            new Prestige('(P3) Keeper of Shadows')
         ]
     ),
     new Commander('Karax',
         [
-            new Prestige('Khalai Phase-Smith'),
-            new Prestige('Architect of War'),
-            new Prestige('Templar Apparent'),
-            new Prestige('Solarite Celestial')
+            new Prestige('(P0) Khalai Phase-Smith'),
+            new Prestige('(P1) Architect of War'),
+            new Prestige('(P2) Templar Apparent'),
+            new Prestige('(P3) Solarite Celestial')
         ]
     ),
     new Commander('Abathur',
         [
-            new Prestige('Evolution Master'),
-            new Prestige('Essence Hoarder'),
-            new Prestige('Tunneling Horror'),
-            new Prestige('The Limitless')
+            new Prestige('(P0) Evolution Master'),
+            new Prestige('(P1) Essence Hoarder'),
+            new Prestige('(P2) Tunneling Horror'),
+            new Prestige('(P3) The Limitless')
         ]
     ),
     new Commander('Alarak',
         [
-            new Prestige('Highlord of the Tal\'darim'),
-            new Prestige('Artificer of Souls'),
-            new Prestige('Tyrant Ascendant'),
-            new Prestige('Shadow of Death')
+            new Prestige('(P0) Highlord of the Tal\'darim'),
+            new Prestige('(P1) Artificer of Souls'),
+            new Prestige('(P2) Tyrant Ascendant'),
+            new Prestige('(P3) Shadow of Death')
         ]
     ),
     new Commander('Nova',
         [
-            new Prestige('Dominion Ghost'),
-            new Prestige('Soldier of Fortune'),
-            new Prestige('Tactical Dispatcher'),
-            new Prestige('Infiltration Specialist')
+            new Prestige('(P0) Dominion Ghost'),
+            new Prestige('(P1) Soldier of Fortune'),
+            new Prestige('(P2) Tactical Dispatcher'),
+            new Prestige('(P3) Infiltration Specialist')
         ]
     ),
     new Commander('Stukov',
         [
-            new Prestige('Infested Admiral'),
-            new Prestige('Frightful Fleshwelder'),
-            new Prestige('Plague Warder'),
-            new Prestige('Lord of the Horde')
+            new Prestige('(P0) Infested Admiral'),
+            new Prestige('(P1) Frightful Fleshwelder'),
+            new Prestige('(P2) Plague Warder'),
+            new Prestige('(P3) Lord of the Horde')
         ]
     ),
     new Commander('Fenix',
         [
-            new Prestige('Purifier Executor'),
-            new Prestige('Akhundelar'),
-            new Prestige('Network Administrator'),
-            new Prestige('Unconquered Spirit')
+            new Prestige('(P0) Purifier Executor'),
+            new Prestige('(P1) Akhundelar'),
+            new Prestige('(P2) Network Administrator'),
+            new Prestige('(P3) Unconquered Spirit')
         ]
     ),
     new Commander('Dehaka',
         [
-            new Prestige('Primal Pack Leader'),
-            new Prestige('Devouring One'),
-            new Prestige('Primal Contender'),
-            new Prestige('Broodbrother')
+            new Prestige('(P0) Primal Pack Leader'),
+            new Prestige('(P1) Devouring One'),
+            new Prestige('(P2) Primal Contender'),
+            new Prestige('(P3) Broodbrother')
         ]
     ),
     new Commander('Han & Horner',
         [
-            new Prestige('Mercenary Leader and Dominion Admiral'),
-            new Prestige('Chaotic Power Couple'),
-            new Prestige('Wing Commanders'),
-            new Prestige('Galactic Gunrunners')],
+            new Prestige('(P0) Mercenary Leader and Dominion Admiral'),
+            new Prestige('(P1) Chaotic Power Couple'),
+            new Prestige('(P2) Wing Commanders'),
+            new Prestige('(P3) Galactic Gunrunners')],
         'horner'),
     new Commander('Tychus',
         [
-            new Prestige('Legendary Outlaw'),
-            new Prestige('Technical Recruiter'),
-            new Prestige('Lone Wolf'),
-            new Prestige('Dutiful Dogwalker')
+            new Prestige('(P0) Legendary Outlaw'),
+            new Prestige('(P1) Technical Recruiter'),
+            new Prestige('(P2) Lone Wolf'),
+            new Prestige('(P3) Dutiful Dogwalker')
         ]
     ),
     new Commander('Zeratul',
         [
-            new Prestige('Dark Prelate'),
-            new Prestige('Anakh Su\'n'),
-            new Prestige('Knowledge Seeker'),
-            new Prestige('Herald of the Void')
+            new Prestige('(P0) Dark Prelate'),
+            new Prestige('(P1) Anakh Su\'n'),
+            new Prestige('(P2) Knowledge Seeker'),
+            new Prestige('(P3) Herald of the Void')
         ]
     ),
     new Commander('Stetmann',
         [
-            new Prestige('Hero Genius (Henius)'),
-            new Prestige('Signal Savant'),
-            new Prestige('Best Buddy'),
-            new Prestige('Oil Baron')
+            new Prestige('(P0) Hero Genius (Henius)'),
+            new Prestige('(P1) Signal Savant'),
+            new Prestige('(P2) Best Buddy'),
+            new Prestige('(P3) Oil Baron')
         ]
     ),
     new Commander('Mengsk',
         [
-            new Prestige('Emperor of the Dominion'),
-            new Prestige('Toxic Tyrant'),
-            new Prestige('Principal Proletariat'),
-            new Prestige('Merchant of Death')
+            new Prestige('(P0) Emperor of the Dominion'),
+            new Prestige('(P1) Toxic Tyrant'),
+            new Prestige('(P2) Principal Proletariat'),
+            new Prestige('(P3) Merchant of Death')
         ]
     )
 ];
